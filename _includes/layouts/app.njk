@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-app
+---
+
+<h1>{{ title }}</h1>
+
+<time datetime="{{ page.date | htmlDateString }}"
+  >{{ page.date | readableDate }}</time
+>
+{%- for tag in tags | filterTagList -%} {%- set tagUrl %}/tags/{{ tag | slug
+}}/{% endset -%}
+<a href="{{ tagUrl | url }}" class="app-tag">{{ tag }}</a>
+{%- endfor %} {{ content | safe }} {%- set nextapp = collections.apps |
+getNextCollectionItem(page) %} {%- set previousapp = collections.apps |
+getPreviousCollectionItem(page) %} {%- if nextapp or previousapp %}
+<hr />
+<ul>
+  {%- if nextapp %}
+  <li>Next: <a href="{{ nextapp.url | url }}">{{ nextapp.data.title }}</a></li>
+  {% endif %} {%- if previousapp %}
+  <li>
+    Previous:
+    <a href="{{ previousapp.url | url }}">{{ previousapp.data.title }}</a>
+  </li>
+  {% endif %}
+</ul>
+{%- endif %}

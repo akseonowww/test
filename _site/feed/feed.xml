@@ -1,26 +1,27 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>БазАрр</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
-	
-	<link href="https://xn--80aabz0ca.xn--p1ai/feed/feed.xml" rel="self"/>
-	<link href="https://базарр.рф/"/>
-	<updated>2018-08-24T00:00:00Z</updated>
-	<id>https://базарр.рф/</id>
-	<author>
-		<name>Ruslan Akseonow</name>
-		<email>akseonowww@gmail.com</email>
-	</author>
-	
-	<entry>
-		<title>Яндекс Браузер — с Алисой</title>
-		<link href="https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/"/>
-		<updated>2018-08-24T00:00:00Z</updated>
-		<id>https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/</id>
-		<content type="html">&lt;p&gt;&lt;img eleventy:output=&quot;/logo_yandex-browser.png&quot; alt=&quot;logo&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
+  <title>БазАрр</title>
+  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+  
+  <link href="https://xn--80aabz0ca.xn--p1ai/feed/feed.xml" rel="self" />
+  <link href="https://базарр.рф/" />
+  <updated>2018-08-24T00:00:00Z</updated>
+  <id>https://базарр.рф/</id>
+  <author>
+    <name>Ruslan Akseonow</name>
+    <email>akseonowww@gmail.com</email>
+  </author> 
+  <entry>
+    <title>Яндекс Браузер — с Алисой</title>
+    <link href="https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/" />
+    <updated>2018-08-24T00:00:00Z</updated>
+    <id>https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/</id>
+    <content type="html"
+      >&lt;p&gt;&lt;img eleventy:output=&quot;/logo_yandex-browser.png&quot; alt=&quot;logo&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Безопасный и быстрый браузер с голосовым поиском.&lt;/p&gt;
 &lt;p&gt;Яндекс&lt;/p&gt;
-&lt;h3 id=&quot;%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C&quot;&gt;Скачать &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C&quot;&gt;Скачать &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;БазАрр&lt;/li&gt;
 &lt;li&gt;Google Play&lt;/li&gt;
@@ -35,24 +36,24 @@
 &lt;li&gt;Trashbox&lt;/li&gt;
 &lt;li&gt;4pda&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F&quot;&gt;Галерея &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id=&quot;%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5&quot;&gt;Описание &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F&quot;&gt;Галерея &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5&quot;&gt;Описание &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Яндекс Браузер — безопасный и быстрый нейробраузер с голосовым помощником Алисой и нейросетями. Посмотрите, какие нейросилы вы получите, установив браузер.&lt;br /&gt;
 Встроенный нейроредактор пишет, редактирует и переводит тексты. А ещё — кратко пересказывает видео, статьи и документы. Даже очень большие.&lt;br /&gt;
 ЯндексБраузер переводит иностранные видео с восьми языков: английского, испанского, французского, немецкого, итальянского, китайского, корейского и японского.&lt;br /&gt;
 Голосовой помощник Алиса умеет решать повседневные задачи: подскажет погоду, посоветует, где поесть или купить продуктов, найдёт что угодно в интернете. А ещё сгенерирует любую картинку, которую вы попросите — благодаря встроенной нейросети...&lt;/p&gt;
-&lt;h3 id=&quot;%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE&quot;&gt;Что нового &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE&quot;&gt;Что нового &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D1%87%D1%82%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;24.12.3.105 (26 дек 2024)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Встречайте обновлённый Яндекс Браузер. Теперь — со встроенным нейроредактором, который поможет написать и отредактировать всё, что угодно. Кроме того, Браузер переводит и пересказывает тексты и видео. Просто загрузите текст или ссылку — и готово.&lt;/p&gt;
-&lt;h3 id=&quot;%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9&quot;&gt;Возможностей &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9&quot;&gt;Возможностей &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Поддержка расширений Opera и Chrome позволяет добавить в браузер практически любые нужные вам функции.&lt;/li&gt;
 &lt;li&gt;Технология активной защиты Protect предупреждает пользователей об опасных сайтах, предотвращает утечку личных данных в публичных Wi-Fi-сетях и проверяет загружаемые файлы на вирусы.&lt;/li&gt;
 &lt;li&gt;Режим Турбо 2.0 (для предыдущих версий) ускоряет загрузку страниц, картинок и видео в браузере и делает пользование интернетом комфортным даже на низкой скорости доступа.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;%D1%8F%D0%B7%D1%8B%D0%BA&quot;&gt;Язык &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D1%8F%D0%B7%D1%8B%D0%BA&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;%D1%8F%D0%B7%D1%8B%D0%BA&quot;&gt;Язык &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D1%8F%D0%B7%D1%8B%D0%BA&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Русский, английский, испанский, итальянский, казахский, немецкий, португальский, турецкий, узбекский, украинский, упрощенный китайский, французский, чешский, японский.&lt;/p&gt;
-&lt;h3 id=&quot;%D0%BE%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5&quot;&gt;Остальное &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D0%BE%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;%D0%BE%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5&quot;&gt;Остальное &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D0%BE%D1%81%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -123,7 +124,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&quot;%D1%81%D0%BE%D1%86-%D1%81%D0%B5%D1%82%D0%B8&quot;&gt;Соц-сети &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D1%81%D0%BE%D1%86-%D1%81%D0%B5%D1%82%D0%B8&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;%D1%81%D0%BE%D1%86-%D1%81%D0%B5%D1%82%D0%B8&quot;&gt;Соц-сети &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D1%81%D0%BE%D1%86-%D1%81%D0%B5%D1%82%D0%B8&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Telegram&lt;/li&gt;
 &lt;li&gt;VK&lt;/li&gt;
@@ -139,7 +140,7 @@
 &lt;li&gt;GitHub&lt;/li&gt;
 &lt;li&gt;Wikipedia&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8&quot;&gt;Ссылки &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8&quot;&gt;Ссылки &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Сайт разработчика&lt;/li&gt;
 &lt;li&gt;Блог браузера&lt;/li&gt;
@@ -147,7 +148,7 @@
 &lt;li&gt;Бета версия&lt;/li&gt;
 &lt;li&gt;Альфа версия&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8&quot;&gt;Статьи &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8&quot;&gt;Статьи &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Яндекс браузер для Андроид ТВ&lt;/strong&gt;&lt;br /&gt;
 akseonowww, 11 августа 2023, 17:55&lt;/li&gt;
@@ -158,15 +159,17 @@ akseonowww, 11 августа 2023, 17:55&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Как зайти во флаги?&lt;/strong&gt;&lt;br /&gt;
 akseonowww, 11 августа 2023, 17:55&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&quot;%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8&quot;&gt;Комментарии &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/posts/yandex-browser/#%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>VK</title>
-		<link href="https://xn--80aabz0ca.xn--p1ai/posts/vk/"/>
-		<updated>2018-08-24T00:00:00Z</updated>
-		<id>https://xn--80aabz0ca.xn--p1ai/posts/vk/</id>
-		<content type="html"></content>
-	</entry>
+&lt;h3 id=&quot;%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8&quot;&gt;Комментарии &lt;a class=&quot;direct-link&quot; href=&quot;https://xn--80aabz0ca.xn--p1ai/apps/yandex-browser/#%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+</content
+    >
+  </entry> 
+  <entry>
+    <title>VK</title>
+    <link href="https://xn--80aabz0ca.xn--p1ai/apps/vk/" />
+    <updated>2018-08-24T00:00:00Z</updated>
+    <id>https://xn--80aabz0ca.xn--p1ai/apps/vk/</id>
+    <content type="html"
+      ></content
+    >
+  </entry>
 </feed>

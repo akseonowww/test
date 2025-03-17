@@ -4,7 +4,7 @@ description: Безопасный и быстрый браузер с голос
 date: 2018-08-24
 tags:
   - Браузер
-layout: layouts/post.njk
+layout: layouts/app.njk
 ---
 
 <img eleventy:output="/logo_yandex-browser.png" alt="logo" /> </br>

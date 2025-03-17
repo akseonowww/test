@@ -6,8 +6,8 @@ pagination:
   filter:
     - all
     - nav
-    - post
-    - posts
+    - app
+    - apps
     - tagList
   addAllPagesToCollections: true
 layout: layouts/home.njk
@@ -15,9 +15,9 @@ eleventyComputed:
   title: #{{ tag }}
 permalink: /tags/{{ tag | slug }}/
 ---
+
 <h1>#{{ tag }}</h1>
 
-{% set postslist = collections[ tag ] %}
-{% include "postslist.njk" %}
+{% set appslist = collections[ tag ] %} {% include "appslist.njk" %}
 
 <p>Посмотреть <a href="{{ '/tags/' | url }}">все теги</a>.</p>

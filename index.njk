@@ -4,11 +4,13 @@ eleventyNavigation:
   key: Главная
   order: 1
 ---
-{% set maxPosts = collections.posts.length %}
-<h1>Приложений: {{ maxPosts }}</h1>
 
-{% set postslist = collections.posts %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+{% set maxapps = collections.apps.length %}
+<h1>Приложений: {{ maxapps }}</h1>
 
-<p>Больше приложений можно найти в <a href="{{ '/posts/' | url }}">каталоге</a>.</p>
+{% set appslist = collections.apps %} {% set appslistCounter = collections.apps
+| length %} {% include "appslist.njk" %}
+
+<p>
+  Больше приложений можно найти в <a href="{{ '/apps/' | url }}">каталоге</a>.
+</p>

@@ -1,0 +1,24 @@
+<ol
+  reversed
+  class="applist"
+  style="counter-reset: start-from {{ (appslistCounter or appslist.length) + 1 }}"
+>
+  {% for app in appslist | reverse %}
+  <li
+    class="applist-item{% if app.url == url %} applist-item-active{% endif %}"
+  >
+    <a href="{{ app.url | url }}" class="applist-link"
+      >{% if app.data.title %}{{ app.data.title }}{% else %}<code
+        >{{ app.url }}</code
+      >{% endif %}</a
+    >
+    <time class="applist-date" datetime="{{ app.date | htmlDateString }}"
+      >{{ app.date | readableDate }}</time
+    >
+    {% for tag in app.data.tags | filterTagList %} {% set tagUrl %}/tags/{{ tag
+    | slug }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="app-tag">{{ tag }}</a>
+    {% endfor %}
+  </li>
+  {% endfor %}
+</ol>
