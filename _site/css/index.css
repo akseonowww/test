@@ -53,70 +53,6 @@ header:after {
   display: table;
   clear: both;
 }
-
-/* Apps Grid */
-.apps-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.app-card {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  padding: 1rem;
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  transition: transform 0.2s;
-}
-
-.app-card:hover {
-  transform: translateY(-2px);
-}
-
-.app-icon {
-  width: 64px;
-  height: 64px;
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-.app-info {
-  flex: 1;
-}
-
-.app-info h2 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.25rem;
-}
-
-.app-developer {
-  color: var(--darkgray);
-  font-size: 0.9rem;
-  margin: 0 0 0.5rem 0;
-}
-
-.app-description {
-  font-size: 0.9rem;
-  margin: 0 0 0.5rem 0;
-  color: var(--darkgray);
-}
-
-.app-meta {
-  display: flex;
-  gap: 1rem;
-  font-size: 0.9rem;
-  color: var(--darkgray);
-}
-
-.app-rating {
-  color: #f4b400;
-}
-
-/* Rest of existing styles */
 table {
   margin: 1em 0;
 }
@@ -187,8 +123,8 @@ code {
 .home {
   padding: 0 1rem;
   float: left;
-  margin: 1rem 0;
-  font-size: 1em;
+  margin: 1rem 0; /* 16px /16 */
+  font-size: 1em; /* 16px /16 */
 }
 .home :link:not(:hover) {
   text-decoration: none;
@@ -255,18 +191,19 @@ code {
   font-weight: 700;
 }
 
+
 /* Tags */
 .post-tag {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  font-size: 0.6875em;
-  padding: 0.09090909090909em 0.3636363636364em;
-  margin-left: 0.8em;
+  font-size: 0.6875em; /* 11px /16 */
+  padding: 0.09090909090909em 0.3636363636364em; /* 1px 4px /11 */
+  margin-left: 0.8em; /* 8px /10 */
   color: var(--darkgray);
   border: 1px solid var(--gray);
-  border-radius: 0.25em;
+  border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
   line-height: 1.8;
 }
@@ -285,7 +222,7 @@ a[href].post-tag:focus {
 /* Warning */
 .warning {
   background-color: #ffc;
-  padding: 1em 0.625em;
+  padding: 1em 0.625em; /* 16px 10px /16 */
 }
 .warning ol:only-child {
   margin: 0;

@@ -4,24 +4,11 @@ eleventyNavigation:
   key: Главная
   order: 1
 ---
-{% set apps = metadata.apps %}
-<h1>Популярные {% if apps.length == 1 %}приложение{% elif apps.length == 2 or apps.length == 3 or apps.length == 4 %}приложения{% else %}приложений{% endif %}</h1>
+{% set maxPosts = collections.posts.length %}
+<h1>Приложений: {{ maxPosts }}</h1>
 
-<div class="apps-grid">
-  {% for app in apps %}
-  <a href="{{ app.url | url }}" class="app-card">
-    <img src="{{ app.icon }}" alt="{{ app.title }}" class="app-icon">
-    <div class="app-info">
-      <h2>{{ app.title }}</h2>
-      <p class="app-developer">{{ app.developer }}</p>
-      <p class="app-description">{{ app.description }}</p>
-      <div class="app-meta">
-        <span class="app-rating">{{ app.rating }} ★</span>
-        <span class="app-size">{{ app.size }}</span>
-      </div>
-    </div>
-  </a>
-  {% endfor %}
-</div>
+{% set postslist = collections.posts %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
 
 <p>Больше приложений можно найти в <a href="{{ '/posts/' | url }}">каталоге</a>.</p>
